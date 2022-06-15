@@ -103,7 +103,6 @@ export interface Params {
   [APIEndPoint.get_region]: undefined;
   [APIEndPoint.list_category]: undefined;
 }
-
 export interface Model<T> {
   status: string;
   data: T;
