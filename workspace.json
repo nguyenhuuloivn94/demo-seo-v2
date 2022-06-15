@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "projects": {
+    "consumer": "apps/consumer",
+    "function-shares": "libs/function-shares",
+    "partner": "apps/partner",
+    "model": "libs/model",
+    "ui-shares": "libs/ui-shares"
+  }
+}

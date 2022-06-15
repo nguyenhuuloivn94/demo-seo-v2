@@ -1,0 +1,17 @@
+diff --git a/node_modules/next/dist/export/worker.js b/node_modules/next/dist/export/worker.js
+index be90cd6..f6f1bfa 100644
+--- a/node_modules/next/dist/export/worker.js
++++ b/node_modules/next/dist/export/worker.js
+@@ -207,9 +207,9 @@ async function exportPage({ parentSpanId , path , pathMap , distDir , outDir , p
+                 };
+                 inAmpMode = (0, _amp).isInAmpMode(ampState);
+                 hybridAmp = ampState.hybrid;
+-                if (components.getServerSideProps) {
+-                    throw new Error(`Error for page ${page}: ${_constants.SERVER_PROPS_EXPORT_ERROR}`);
+-                }
++                // if (components.getServerSideProps) {
++                //     throw new Error(`Error for page ${page}: ${_constants.SERVER_PROPS_EXPORT_ERROR}`);
++                // }
+                 // for non-dynamic SSG pages we should have already
+                 // prerendered the file
+                 if (renderedDuringBuild(components.getStaticProps)) {
