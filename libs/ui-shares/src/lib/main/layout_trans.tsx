@@ -72,8 +72,11 @@ export const TransitionLayout = memo(
     <meta property="og:description" content="Mua máy tính MacBook Pro M1 2020 13 inch 256GB chính hãng tại FPTShop với loạt ưu đãi hấp dẫn: Trả góp 0%, giảm giá lớn khi mua online, nhiều quà tặng giá trị, bảo hành chuẩn Apple trên toàn quốc"/>
     <meta property="og:url" content="https://fptshop.com.vn/may-tinh-xach-tay/macbook-pro-13-2020-touch-bar-m1-256gb"/>
         <meta property="og:image" content="https://images.fpt.shop/unsafe/fit-in/300x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/13/637408530311831907_mbp-2020-m1-gray-dd-1.png"/>
+    {/* @ts-ignore */}
     <meta itemprop="name" content="MacBook Pro M1 2020 13 inch | Trả góp 0%, ưu đãi hấp dẫn | Fptshop.com.vn"/>
+    {/* @ts-ignore */}
     <meta itemprop="description" content="Mua máy tính MacBook Pro M1 2020 13 inch 256GB chính hãng tại FPTShop với loạt ưu đãi hấp dẫn: Trả góp 0%, giảm giá lớn khi mua online, nhiều quà tặng giá trị, bảo hành chuẩn Apple trên toàn quốc"/>
+    {/* @ts-ignore */}
         <meta itemprop="image" content="https://images.fpt.shop/unsafe/fit-in/300x300/filters:quality(90):fill(white)/fptshop.com.vn/Uploads/Originals/2020/11/13/637408530311831907_mbp-2020-m1-gray-dd-1.png"/>
     <meta property="fb:app_id" content="948243871965133"/>
     <meta name="referrer" content="no-referrer-when-downgrade"/>
