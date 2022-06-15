@@ -43,7 +43,7 @@ export type AddressParam = {
   delivery_time_end: string;
   delivery_time_start: string;
   delivery_name: string;
-  delivery_phone: number;
+  delivery_phone: string;
   delivery_address_json: DeliveryAddressJson;
   session_delivery_json: SessionDeliveryJson;
   address_type_json: AddressTypeJson;
